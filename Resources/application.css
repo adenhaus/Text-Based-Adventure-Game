@@ -1,0 +1,42 @@
+.root {
+	-fx-background-color: #2c2d2e;
+}
+
+@font-face {
+    src: url('../Resources/basis33.ttf');
+}
+
+.v-box {
+	-fx-background-color: #2c2d2e;
+}
+
+.text-field {
+	-fx-font-family: 'basis33';
+	-fx-font-size: 20;
+	-fx-padding: 1,1,1,1;
+	-fx-border-color: none;
+	-fx-border-width: 2;
+	-fx-border-radius: 0;
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+	-fx-prompt-text-fill: rgb(120,120,120);
+	-fx-padding: 10px;
+	
+}
+
+.scroll-pane > .viewport {
+	-fx-background-color: #2c2d2e;
+}
+
+.scroll-pane {
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.scroll-pane:focused {
+    -fx-background-insets: 0;
+}
+
+.scroll-pane .corner {
+    -fx-background-insets: 0;
+}
